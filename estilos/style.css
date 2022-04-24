@@ -1,16 +1,38 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+*body {
+    font-family: arial, verdana, sans-serif;
 }
 
-body {
-    background-color: rgb(127, 255, 195);
+#page {
+    width: 9600px;
+    border: 10px solid #3399cc;
+    margin: 20px;
+    padding: 40px;
 }
 
-main {
-    background-color: white;
-    width: 50px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px black;
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666666;
+}
+
+h1 {
+    font-family: droidserifbold, Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #333333;
+    font-size: 90%;
+    line-height: 1.3em;
+}
+
+#navigation {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px opx 10px 0px;
+    margim: 20px 0px 0px;
+}
+
+main_image {
+    border: 1px solid #000000;
+    margin: 0px 10px 10px 0px;
 }
